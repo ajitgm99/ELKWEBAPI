@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 
-var setting =new ConnectionSettings(new Uri("http://localhost:9200/")).DefaultIndex("esEmployee");
+var setting =new ConnectionSettings(new Uri("http://localhost:9200/")).DefaultIndex("esemployee");
 // Add services to the container.
 
 var client=new ElasticClient(setting);
